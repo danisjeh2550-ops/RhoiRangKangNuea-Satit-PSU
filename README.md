@@ -1,5 +1,6 @@
-# 🤖 Coding Thailand 2026 — Edge AI Workshop
+<img width="1347" height="127" alt="image" src="https://github.com/user-attachments/assets/ba5cf267-f460-4fb0-b69b-c461ae061a3b" />
 
+# 🤖 Coding Thailand 2026 — Edge AI Workshop
 > **Day 1 Workshop Materials**
 > Arduino UNO Q × Modulino × Edge Impulse
 > Regional Coding & AI Competition — ห้อง Edge AI
@@ -12,7 +13,8 @@
 
 ## 📋 ภาพรวม Workshop
 
-Workshop 6 ชั่วโมง (09:00–17:00) ที่สอนให้นักเรียนสร้าง Edge AI prototype ด้วย Arduino UNO Q + Modulino + Edge Impulse จบใน 1 วัน — เพื่อเตรียมไปแข่ง Prototype Day ในวันถัดไป
+Workshop 6 ชั่วโมง (09:00–17:00) ที่สอนให้นักเรียน
+สร้าง Edge AI prototype ด้วย Arduino UNO Q + Modulino + Edge Impulse จบใน 1 วัน — เพื่อเตรียมไปแข่ง Prototype Day ในวันถัดไป
 
 ### 🎯 เป้าหมายการเรียนรู้
 
