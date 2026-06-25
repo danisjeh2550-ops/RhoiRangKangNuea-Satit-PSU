@@ -11,7 +11,7 @@
 | # | อุปกรณ์ | จำนวน | ได้รับ | สภาพโอเค |
 |---|---------|:-----:|:------:|:--------:|
 | 1 | Arduino **UNO Q** | 1 | [o] | [o] |
-| 2 | **Modulino** (7 ตัว: Movement, Distance, Thermo, Buttons, Knob, Pixels, Buzzer) | 7 | [o] | [x] |
+| 2 | **Modulino** (7 ตัว: Movement, Distance, Thermo, Buttons, Knob, Pixels, Buzzer) | 7 | [o] | [o] |
 | 3 | สาย **Qwiic** (เชื่อม Modulino) | 7 | [o] | [o] |
 | 4 | สาย **USB-C** (เชื่อมบอร์ด ↔ คอม) | 1 | [o] | [o] |
 | 5 | **Adapter USB-C** (จ่ายไฟ 5V/3A) | 1 | [o] | [o] |
@@ -19,7 +19,7 @@
 | 7 | **USB Webcam** | 1 | [o] | [o] |
 | 8 | **USB Mic** | 1 | [o] | [o] |
 
-**ของที่ขาด / เสีย (ถ้ามี):** Movement ของ Modulino เสีย
+**ของที่ขาด / เสีย (ถ้ามี):** 
 
 ---
 
