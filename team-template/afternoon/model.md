@@ -9,11 +9,11 @@
 - **วิธีเชื่อมเข้า Edge Impulse:** [o] กล้อง/ไมค์ (`edge-impulse-linux`)  [ ] Modulino (`data-forwarder`)
 
 ## V1
-- Accuracy (ใน Studio): ____
-- F1 score ราย class (class : F1): _______________
-- class ที่ F1 ต่ำสุด: _______________
+- Accuracy (ใน Studio): 26.7%
+- F1 score ราย class (class : F1): Mouse(0.50), Pen(0.00)
+- class ที่ F1 ต่ำสุด: Pen
 - รูป Confusion Matrix: ![cm-v1](../assets/cm-v1.png)
-- อ่านแล้วเห็นอะไร (class ไหนสับสนกับ class ไหน): _______________
+- อ่านแล้วเห็นอะไร (class ไหนสับสนกับ class ไหน): model มองเห็น background มากกว่า object
 
 ## V2 (ถ้าทัน)
 - แก้อะไรจาก V1: _______________
