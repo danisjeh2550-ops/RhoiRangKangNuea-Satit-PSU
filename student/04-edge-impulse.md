@@ -258,7 +258,32 @@ Studio → **Deployment** → **Arduino library** → Build → ได้ `.zip`
 
 ---
 
-## 7. ทดสอบ 10 cases + จดผล
+## 7. ทดสอบกับกล้องสด — Live classification vs runner
+
+ทดสอบ model กับกล้อง/ไมค์ที่ต่อ UNO Q ได้ **2 ที่** ใช้คนละจังหวะ:
+
+| | **Live classification** (ใน Studio) | **`edge-impulse-linux-runner`** (บนบอร์ด) |
+|---|---|---|
+| อยู่ที่ | เมนูซ้ายของ Studio | shell + เว็บ `:4912` |
+| ทำงานแบบ | ถ่ายทีละช็อต แล้วทาย | สด ต่อเนื่อง real-time |
+| ต้องมี | `edge-impulse-linux` connect device ค้างไว้ | รันตรงบนบอร์ด (ดูข้อ 6.1) |
+| เหมาะกับ | ลองทีละรูป เทียบของจริง | ทดสอบ 10 cases + เดโม่ |
+
+**Live classification ทำยังไง:**
+1. shell (`>_`): `edge-impulse-linux` → login → เลือก project → บอร์ดขึ้น **เขียว (Connected)** ใน Devices
+2. Studio → **Live classification** → เลือก **Device = UNO Q**, **Sensor = Camera** → **Start sampling**
+3. ถ่าย 1 รูปจากกล้องจริง → ทาย → เห็นรูป + กรอบ (bounding box) + confidence (เลื่อนดูตาราง **Detected objects** ใต้รูป)
+
+> ⚠️ อย่าเปิด `edge-impulse-linux` กับ `runner` **พร้อมกัน** — แย่งกล้อง/port กัน
+
+**กดแล้ว "ไม่เห็นค่า"? เช็กตามนี้:**
+- **เห็นรูป แต่ไม่มีกรอบ/ค่า** = model **ตรวจไม่เจอ object** (ไม่ใช่ระบบพัง) → ลด slider **threshold**, เอา object เข้าใกล้แบบตอนเก็บ data, หรือข้อมูลน้อยไป เก็บเพิ่ม+เทรนใหม่
+- **ไม่เห็นรูปเลย / ค้าง** = device ไม่เขียว, เลือก sensor ผิด, หรือกล้องไม่ขึ้น (`ls /dev/video*`)
+- อยากดู**ภาพรวม**ว่าโมเดลแม่นแค่ไหน → เมนู **Model testing** (ทดสอบกับ test set ที่เก็บไว้ ไม่ใช่กล้องสด)
+
+---
+
+## 8. ทดสอบ 10 cases + จดผล
 
 จดลง `team-template/afternoon/predictions.csv` ทุกครั้ง:
 
@@ -273,7 +298,7 @@ Studio → **Deployment** → **Arduino library** → Build → ได้ `.zip`
 
 ---
 
-## 8. ถ้าผลไม่ดี → V2 (ถ้าเหลือเวลา)
+## 9. ถ้าผลไม่ดี → V2 (ถ้าเหลือเวลา)
 
 ```
 Feature Explorer ปนกัน?          -> แก้ class definition / เก็บ data เพิ่ม
