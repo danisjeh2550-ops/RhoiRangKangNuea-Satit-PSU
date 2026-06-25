@@ -4,8 +4,8 @@
 # Afternoon — Model
 
 - **Input ที่ใช้:** WebCam
-- **Classes:** Pen , Mouse
-- **จำนวนตัวอย่าง/class:** 83
+- **Classes:** ฺBottle , Mouse
+- **จำนวนตัวอย่าง/class:** 65
 - **วิธีเชื่อมเข้า Edge Impulse:** [o] กล้อง/ไมค์ (`edge-impulse-linux`)  [ ] Modulino (`data-forwarder`)
 
 ## V1
