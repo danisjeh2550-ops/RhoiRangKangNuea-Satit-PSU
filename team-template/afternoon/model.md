@@ -3,10 +3,10 @@
 
 # Afternoon — Model
 
-- **Input ที่ใช้:** _______________
-- **Classes:** _______________
-- **จำนวนตัวอย่าง/class:** _______________
-- **วิธีเชื่อมเข้า Edge Impulse:** [ ] กล้อง/ไมค์ (`edge-impulse-linux`)  [ ] Modulino (`data-forwarder`)
+- **Input ที่ใช้:** WebCam
+- **Classes:** Pen , Mouse
+- **จำนวนตัวอย่าง/class:** 83
+- **วิธีเชื่อมเข้า Edge Impulse:** [o] กล้อง/ไมค์ (`edge-impulse-linux`)  [ ] Modulino (`data-forwarder`)
 
 ## V1
 - Accuracy (ใน Studio): ____
