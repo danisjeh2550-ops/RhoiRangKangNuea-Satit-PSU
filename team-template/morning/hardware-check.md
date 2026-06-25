@@ -11,8 +11,8 @@
 | Input | ต่อผ่าน? | หลักฐาน |
 |---|---|---|
 | 1. Modulino sensor (Qwiic) | [o] | ![sensor](../assets/sensor.jpg) |
-| 2. USB Webcam | [ ] | ![camera](../assets/camera.jpg) |
-| 3. USB Mic | [ ] | ![mic](../assets/mic.jpg) |
+| 2. USB Webcam | [o] | ![camera](../assets/camera.jpg) |
+| 3. USB Mic | [o] | ![mic](../assets/mic.jpg) |
 
 ## Modulino — ลองกี่ตัว (มี 7 ตัว)
 
@@ -20,11 +20,11 @@
 
 - [ ] Movement  - [ ] Distance  - [ ] Thermo  - [ ] Buttons  - [ ] Knob  - [ ] Pixels  - [ ] Buzzer
 
-**ตัวที่ค่าแยกสถานการณ์ได้ชัดสุด (น่าเอาไปเทรนบ่าย):** _______________
+**ตัวที่ค่าแยกสถานการณ์ได้ชัดสุด (น่าเอาไปเทรนบ่าย):** Thermo
 
 ## Challenge (ถ้าทำ)
 
-- [ ] A — Proximity Alarm (sensor → buzzer)
-- [ ] B — เก็บ Movement เป็น CSV ไว้เทรนบ่าย (ไฟล์อยู่ที่: _______________)
+- [o] A — Proximity Alarm (sensor → buzzer)
+- [o] B — เก็บ Movement เป็น CSV ไว้เทรนบ่าย (ไฟล์อยู่ที่: test.wav)
 
 **ติดอะไรตอนต่อ + แก้ยังไง (ถ้ามี):** _______________
