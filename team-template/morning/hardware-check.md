@@ -18,7 +18,7 @@
 
 ลองให้ครบเผื่อไอเดีย แล้วติ๊กตัวที่ลองแล้วได้ ([ตัวอย่างโค้ด 7 ตัว](../../student/examples/modulino/)):
 
-- [ ] Movement  - [ ] Distance  - [ ] Thermo  - [ ] Buttons  - [ ] Knob  - [ ] Pixels  - [ ] Buzzer
+- [o] Movement  - [o] Distance  - [o] Thermo  - [o] Buttons  - [o] Knob  - [o] Pixels  - [o] Buzzer
 
 **ตัวที่ค่าแยกสถานการณ์ได้ชัดสุด (น่าเอาไปเทรนบ่าย):** Thermo
 
